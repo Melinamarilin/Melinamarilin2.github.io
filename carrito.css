@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(48, 3, 34);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding:0px;
+}
+h1{
+    color:rgb(145, 116, 140);
+    text-align: center;
+    font-size: 30px;
+
+}
+.product{
+    border-radius: 25px;
+    padding: 0px;
+    text-align: center;
+    cursor: pointer;
+     background-color: rgb(238, 231, 237);
+     margin: 20px auto;
+     width: 250px;
+     height: 250px;
+}
+h2{
+    color:rgb(48, 3, 34);
+    text-align: center;
+    font-size: small;
+}
+p{
+    color:rgb(145, 116, 140);
+    text-align: center
+}
+.carrito{
+
+    margin: 50px auto ;
+    padding: 10px;
+    border: 30px;
+    background-color:rgb(238, 231, 237);
+    border-radius: 15px;
+    border-color:rgb(145, 116, 140);
+    font-size: 20px;
+    text-align: center;
+    width: 150px;
+
+}
+.agregar{
+    border-radius: 15px;
+    border-color:rgb(145, 116, 140);
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.container-product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 20px;
+}
+img{
+    max-width: 80px;
+    max-height: 80px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+.limp-car{
+    background-color: rgb(145, 116, 140);
+    padding: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.general{
+    margin: auto;
+    width: 55%;
+
+}
